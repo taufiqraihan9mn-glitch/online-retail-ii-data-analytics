@@ -1,0 +1,50 @@
+[
+  {
+    "kueri": "Q01 Ringkasan KPI dan rata-rata nilai invoice",
+    "baris_hasil": 1
+  },
+  {
+    "kueri": "Q02 Tren bulanan dan perubahan terhadap bulan sebelumnya",
+    "baris_hasil": 25
+  },
+  {
+    "kueri": "Q03 Kontribusi negara terhadap penjualan positif",
+    "baris_hasil": 43
+  },
+  {
+    "kueri": "Q04 Produk terlaris berdasarkan unit dan kode barang terstandardisasi",
+    "baris_hasil": 20
+  },
+  {
+    "kueri": "Q05 Nilai dan frekuensi pembelian pelanggan teridentifikasi",
+    "baris_hasil": 25
+  },
+  {
+    "kueri": "Q06 Segmen pembelian ulang",
+    "baris_hasil": 3
+  },
+  {
+    "kueri": "Q07 Penjualan per hari dalam sepekan",
+    "baris_hasil": 7
+  },
+  {
+    "kueri": "Q08 Tiga bulan terbesar per negara",
+    "baris_hasil": 117
+  },
+  {
+    "kueri": "Q09 Distribusi nilai per invoice dengan ambang dalam Rupiah",
+    "baris_hasil": 4
+  },
+  {
+    "kueri": "Q10 Aktivitas penjualan tahunan menurut negara",
+    "baris_hasil": 99
+  },
+  {
+    "kueri": "Q11 Variasi deskripsi sumber per kode SKU",
+    "baris_hasil": 20
+  },
+  {
+    "kueri": "Q12 Hubungkan ringkasan penjualan dan pelanggan per negara",
+    "baris_hasil": 43
+  }
+]

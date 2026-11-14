@@ -1,0 +1,57 @@
+{
+  "pemeriksaan_kpi": {
+    "total_gbp": {
+      "python": "20476260.448",
+      "duckdb": "20476260.448",
+      "lulus": true
+    },
+    "total_idr": {
+      "python": "493508591187.47200",
+      "duckdb": "493508591187.47200",
+      "lulus": true
+    },
+    "transaksi": {
+      "python": 40077,
+      "duckdb": 40077,
+      "lulus": true
+    },
+    "pelanggan": {
+      "python": 5878,
+      "duckdb": 5878,
+      "lulus": true
+    },
+    "unit": {
+      "python": 11205148,
+      "duckdb": 11205148,
+      "lulus": true
+    },
+    "baris": {
+      "python": 1007913,
+      "duckdb": 1007913,
+      "lulus": true
+    },
+    "baris_dengan_id": {
+      "python": 779425,
+      "duckdb": 779425,
+      "lulus": true
+    },
+    "aov_gbp": {
+      "python": "510.92298445492427077875090450882052050",
+      "duckdb": "510.92298445492427077875090450882052050",
+      "lulus": true
+    },
+    "aov_idr": {
+      "python": "12314010.309840357312174064925019337775",
+      "duckdb": "12314010.309840357312174064925019337775",
+      "lulus": true
+    },
+    "pelanggan_ulang": {
+      "python": 4255,
+      "duckdb": 4255,
+      "lulus": true
+    }
+  },
+  "baris_menyimpang_konversi": 0,
+  "kurs_cocok": true,
+  "semua_lulus": true
+}

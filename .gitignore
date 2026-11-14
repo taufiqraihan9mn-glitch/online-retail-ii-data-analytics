@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+.env
+.env.*
+.streamlit/secrets.toml
+data/raw/*
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.duckdb*
+*.zip
+.DS_Store
+Thumbs.db
+
+README.backup

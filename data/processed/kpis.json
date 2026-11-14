@@ -1,0 +1,18 @@
+{
+  "kurs": {
+    "idr_per_gbp": "24101.50",
+    "tanggal": "2026-11-13",
+    "sumber": "Bank Indonesia · Kurs Acuan Non-USD/IDR",
+    "url": "https://www.bi.go.id/id/statistik/informasi-kurs/kurs-acuan-non-usd-idr/Default.aspx"
+  },
+  "total_gbp": "20476260.448",
+  "total_idr": "493508591187.47200",
+  "aov_gbp": "510.92298445492427077875090450882052050",
+  "aov_idr": "12314010.309840357312174064925019337775",
+  "transaksi": 40077,
+  "pelanggan": 5878,
+  "unit": 11205148,
+  "baris": 1007913,
+  "baris_dengan_id": 779425,
+  "pelanggan_ulang": 4255
+}
