@@ -15,3 +15,5 @@ data/processed/*.duckdb*
 Thumbs.db
 
 README.backup
+
+dashboard/app.py.backup

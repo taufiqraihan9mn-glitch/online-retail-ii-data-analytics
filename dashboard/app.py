@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from src.bootstrap import ensure_database
 from dashboard.charts import render_figures
 from src.reference import OUT, number, rupiah, tanggal
 from src.validation import fetch_kpis
@@ -107,8 +108,12 @@ def main():
     """, unsafe_allow_html=True)
     st.title('Analisis Penjualan dan Pelanggan')
     st.caption('Online Retail II · UCI Machine Learning Repository · 2009–2011')
-    if not DB_PATH.exists():
-        st.error('Basis data belum tersedia. Jalankan `python -m src.pipeline --unduh` lalu `python -m src.build_database`.')
+    try:
+        with st.spinner('Menyiapkan database penjualan. Proses pertama mungkin memerlukan beberapa menit...'):
+            ensure_database()
+    except Exception as exc:
+        st.error('Database belum berhasil disiapkan. Silakan coba kembali beberapa saat lagi.')
+        st.exception(exc)
         return
 
     try:
