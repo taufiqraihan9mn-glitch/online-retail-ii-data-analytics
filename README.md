@@ -52,3 +52,17 @@ Buka http://localhost:8501 melalui browser.
 - File database dan Parquet dibuat secara lokal.
 - Nilai Rupiah merupakan konversi analitis menggunakan kurs tetap yang terdokumentasi, bukan pendapatan historis aktual dalam Rupiah.
 - Jika instalasi Windows gagal karena panjang path, pindahkan proyek ke direktori yang lebih pendek atau gunakan virtual environment pada lokasi pendek seperti `F:\venvs\retail2`.
+
+## Dashboard Interaktif
+
+**[Buka Dashboard Online Retail II](https://online-retail-ii-data-analytics-raihan.streamlit.app)**
+
+Dashboard menampilkan analisis penjualan dan pelanggan Online Retail II menggunakan Python, SQL, DuckDB, dan Streamlit.
+
+Fitur utama:
+- Empat KPI utama penjualan dan pelanggan.
+- Delapan visualisasi interaktif.
+- Filter periode transaksi dan negara.
+- Nilai penjualan dalam Rupiah (IDR) dengan kurs acuan tetap.
+- Dokumentasi sumber data dan metodologi analisis.
+
